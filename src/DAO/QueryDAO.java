@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 public class QueryDAO {
 
-    /*Metodo listar*/
+    
     public ArrayList<almacenar> Listar () {
         ArrayList<almacenar> list = new ArrayList<almacenar>();
         Conectar conec = new Conectar();
