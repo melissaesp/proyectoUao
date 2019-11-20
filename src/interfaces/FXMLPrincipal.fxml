@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interfaces.FXMLPrincipalController">
+   <children>
+      <ImageView fitHeight="101.0" fitWidth="200.0" layoutX="45.0" layoutY="365.0">
+         <image>
+            <Image url="@../recursos/logo-UAO-certificacion.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="61.0" layoutY="258.0" mnemonicParsing="false" text="Consultar en base de datos ">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="61.0" layoutY="188.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="221.0" text="Crear Experimento">
+         <font>
+            <Font name="Arial Bold" size="15.0" />
+         </font>
+      </Button>
+      <ImageView layoutX="25.0" layoutY="34.0">
+         <image>
+            <Image url="@../recursos/ginsai-icon.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="126.0" fitWidth="132.0" layoutX="464.0" layoutY="187.0">
+         <image>
+            <Image url="@../recursos/analisis.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="126.0" fitWidth="147.0" layoutX="327.0" layoutY="188.0">
+         <image>
+            <Image url="@../recursos/line.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
