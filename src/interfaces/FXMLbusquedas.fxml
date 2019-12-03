@@ -9,7 +9,8 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interfaces.FXMLBusquedaController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interfaces.FXMLbusquedasController">
+   
    <children>
       <TableView layoutX="98.0" layoutY="173.0" prefHeight="200.0" prefWidth="288.0">
         <columns>
@@ -62,4 +63,5 @@
    <opaqueInsets>
       <Insets />
    </opaqueInsets>
+
 </AnchorPane>

@@ -14,7 +14,7 @@ import javafx.fxml.Initializable;
  *
  * @author usuario
  */
-public class FXMLBusquedaController implements Initializable {
+public class FXMLbusquedasController implements Initializable {
 
     /**
      * Initializes the controller class.
