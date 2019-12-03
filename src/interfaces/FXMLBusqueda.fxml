@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interfaces.FXMLBusquedaController">
+   <children>
+      <TableView layoutX="98.0" layoutY="173.0" prefHeight="200.0" prefWidth="288.0">
+        <columns>
+          <TableColumn prefWidth="64.0" text="Nombre" />
+          <TableColumn editable="false" prefWidth="123.0" text="Fecha de creacion" />
+        </columns>
+      </TableView>
+      <Button layoutX="485.0" layoutY="105.0" mnemonicParsing="false" text="Buscar">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Button>
+      <TextField layoutX="305.0" layoutY="76.0" />
+      <Label layoutX="92.0" layoutY="81.0" text="Ingrese nombre del dato a buscar : ">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="26.0" fitWidth="24.0" layoutX="355.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/delete-logo1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="92.0" layoutY="131.0" text="Filtro por fecha :">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+      <DatePicker layoutX="211.0" layoutY="127.0" />
+      <ImageView fitHeight="33.0" fitWidth="43.0" layoutX="279.0" layoutY="204.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/see_icon.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="393.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/logo-UAO-certificacion.png" />
+         </image></ImageView>
+      <ImageView fitHeight="26.0" fitWidth="24.0" layoutX="321.0" layoutY="203.0">
+         <image>
+            <Image url="@../recursos/edit-icon.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="74.0" fitWidth="206.0" layoutX="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/ginsai-icon.PNG" />
+         </image>
+      </ImageView>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>
