@@ -26,9 +26,9 @@ public class QueryDAO {
             rs = ps.executeQuery();
             while (rs.next()) {
                 almacenar atributaSave = new almacenar();
-                atributaSave.setCodigo(rs.getInt(1));
-                atributaSave.setNombre(rs.getString(2));
-                atributaSave.setArchivo(rs.getBytes(3));
+               //atributaSave.setCodigo(rs.getInt(1));
+               // atributaSave.setNombre(rs.getString(2));
+               // atributaSave.setArchivo(rs.getBytes(3));
                 list.add(atributaSave);
             }
         } catch (SQLException ex) {
@@ -54,9 +54,9 @@ public class QueryDAO {
         PreparedStatement ps = null;
         try {
             ps = conec.getConnection().prepareStatement(sql);
-            ps.setInt(1, atributaSave.getCodigopdf());
-            ps.setString(2, atributaSave.getNombrepdf());
-            ps.setBytes(3, atributaSave.getArchivopdf());
+         //   ps.setInt(1, atributaSave.getCodigopdf());
+           // ps.setString(2, atributaSave.getNombrepdf());
+           // ps.setBytes(3, atributaSave.getArchivopdf());
             ps.executeUpdate();
         } catch (SQLException ex) {
             System.out.println(ex.getMessage());
@@ -79,9 +79,9 @@ public class QueryDAO {
         PreparedStatement ps = null;
         try {
             ps = conec.getConnection().prepareStatement(sql);
-            ps.setString(1, atributaSave.getNombrepdf());
-            ps.setBytes(2, atributaSave.getArchivopdf());
-            ps.setInt(3, atributaSave.getCodigopdf());
+//            ps.setString(1, atributaSave.getNombrepdf());
+//            ps.setBytes(2, atributaSave.getArchivopdf());
+//            ps.setInt(3, atributaSave.getCodigopdf());
             ps.executeUpdate();
         } catch (SQLException ex) {
             System.out.println(ex.getMessage());
@@ -101,9 +101,9 @@ public class QueryDAO {
         String sql = "UPDATE pdf SET nombrepdf = ? WHERE codigopdf = ?;";
         PreparedStatement ps = null;
         try {
-            ps = conec.getConnection().prepareStatement(sql);
-            ps.setString(1, atributaSave.getNombrepdf());
-            ps.setInt(2, atributaSave.getCodigopdf());
+//            ps = conec.getConnection().prepareStatement(sql);
+//            ps.setString(1, atributaSave.getNombrepdf());
+//            ps.setInt(2, atributaSave.getCodigopdf());
             ps.executeUpdate();
         } catch (SQLException ex) {
             System.out.println(ex.getMessage());
@@ -125,7 +125,7 @@ public class QueryDAO {
         PreparedStatement ps = null;
         try {
             ps = conec.getConnection().prepareStatement(sql);
-            ps.setInt(1, atributaSave.getCodigopdf());
+            //ps.setInt(1, atributaSave.getCodigopdf());
             ps.executeUpdate();
         } catch (SQLException ex) {
             System.out.println(ex.getMessage());

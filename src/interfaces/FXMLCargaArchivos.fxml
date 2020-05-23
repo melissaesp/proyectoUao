@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="btnBuscar" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="interfaces.FXMLCargaArchivosController">
+    <children>
+      <Button fx:id="btnBuscar" layoutX="395.0" layoutY="68.0" mnemonicParsing="false" text="...">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="228.0" layoutY="73.0" text="Ingrese  archivo(s) (.txt) :">
+         <font>
+            <Font name="Arial" size="13.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="393.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/logo-UAO-certificacion.png" />
+         </image></ImageView>
+      <ImageView fitHeight="74.0" fitWidth="206.0" layoutX="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recursos/ginsai-icon.PNG" />
+         </image>
+      </ImageView>
+      <TextArea editable="false" layoutX="75.0" layoutY="113.0" prefHeight="50.0" prefWidth="227.0" />
+      <Button layoutX="319.0" layoutY="151.0" mnemonicParsing="false" text="Eliminar " />
+      <Button layoutX="319.0" layoutY="113.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="62.0" text="Subir " />
+      <TableView layoutX="75.0" layoutY="184.0" prefHeight="200.0" prefWidth="306.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="masa" />
+          <TableColumn prefWidth="75.0" text="temperatura" />
+        </columns>
+      </TableView>
+      <Button layoutX="395.0" layoutY="230.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="157.0" text="Calcular perdida peso" />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>

@@ -21,7 +21,7 @@
             <Font name="Arial Bold" size="15.0" />
          </font>
       </Button>
-      <Button layoutX="22.0" layoutY="154.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="265.0" text="Crear Experimento">
+      <Button fx:id="btnCrear" layoutX="22.0" layoutY="154.0" mnemonicParsing="false" onAction="#eventCrearMaterial" prefHeight="47.0" prefWidth="265.0" text="Crear Experimento">
          <font>
             <Font name="Arial Bold" size="15.0" />
          </font>
